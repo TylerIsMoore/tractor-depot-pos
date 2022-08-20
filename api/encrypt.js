@@ -1,6 +1,6 @@
 const bcrypt = require('bcryptjs');
 
-const pwd = '2234';
+const pwd = 't54255951';
 
 const hash = bcrypt.hashSync(pwd, 10);
 

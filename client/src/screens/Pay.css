@@ -1,0 +1,39 @@
+.Total-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    left: 800px;
+    bottom: 10px;
+    width: 1000px;
+    height: 775px;
+    box-shadow: rgb(0 0 0 / 75%) 5px 5px 10px;
+    border-radius: 8px;
+    background-color: #BFD7EA;
+}
+
+.Tender-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    position: relative;
+    bottom: 370px;
+    height: 310px;
+    width: 750px;
+    box-shadow: rgb(0 0 0 / 75%) 5px 5px 10px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    border-radius: 8px;
+    background-color: #BFD7EA;
+}
+
+.Total-title {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+}
+
+.Tender-label {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}

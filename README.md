@@ -71,4 +71,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 Tractor Depot Inc POS System
 This app allows an employee to sign in and ring up items for customers in a retail setting.
-The app finds the item in a mongo database using a search bar and then shows the description and price of said item. If multiple items are added, the app combines the values of the prices to give a subtotal, getting a percentage of that subtotal and adding it on for tax, creating a Total
+The app finds the item in a mongo database using a search bar and then shows the description and price of said item. If multiple items are added, the app combines the values of the prices to give a subtotal, getting a percentage of that subtotal and adding it on for tax, creating a Total.
+
+I used NodeJs, MongoDB, React, Express

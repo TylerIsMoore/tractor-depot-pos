@@ -10,15 +10,20 @@ const Header = () => {
   const dispatch = useDispatch();
 
   return (
-    <header className="App__Header">
-      {isAuthenticated ? (
-        <div>
-          <div className="Employee-label">{currentUser?.name}</div>
-          <div>
-            <SignoutButton />
-          </div>
+    <header className="App-header">
+      <div className="App-header-container">
+        <div className="TDI-icon">
+          <img src="./public/images/tdi-icon_1_25.png" />
         </div>
-      ) : null}
+        {isAuthenticated ? (
+          <div className="User-signout">
+            <div className="User-label">{currentUser?.name}</div>
+            <div>
+              <SignoutButton />
+            </div>
+          </div>
+        ) : null}
+      </div>
     </header>
   );
 };

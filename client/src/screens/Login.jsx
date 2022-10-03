@@ -74,7 +74,7 @@ const Login = () => {
       <div className="Logo-container">
         <div className="Image-container">
           <img src="./public/images/tdi-logo.png" />
-          <h3>TractorDepot.com</h3>
+          <h3 className="Website-label">TractorDepot.com</h3>
         </div>
       </div>
     </div>

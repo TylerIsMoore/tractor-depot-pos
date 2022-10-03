@@ -1,12 +1,10 @@
-:root {
-    margin: 0;
-    padding: 0;
-}
 
 body {
     height: 100%;
     background-color: #91aec1;
-    overflow: hidden;
+    /* overflow: hidden; */
+    margin: 0;
+    padding: 0;
 }
 
 main {
